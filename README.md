@@ -11,7 +11,7 @@ Inspired by https://github.com/marceloprates/prettymaps, these are explorations 
 
 TO DO: Proper dependency management. Oh, Python.
 
-I'm using a Mac, so I needed to get Python  and pip up to date, then cover a compiled dependency that the OpenStreetMaps libraries needed, called `libspatialindex`. Luckily Homebrew has a package for it.
+I'm using a Mac, so I needed to get Python and pip up to date, then cover a compiled dependency that the OpenStreetMaps libraries needed, called `libspatialindex`. Luckily Homebrew has a package for it.
 
 ```
 brew install spatialindex
