@@ -6,14 +6,16 @@ from prettymaps import *
 import matplotlib.font_manager as fm
 from matplotlib import pyplot as plt
 
-# Init matplotlib figure
+# Create the matplotlib figure (fig) and axes (ax)
+# Overall map size (figsize) is specified in inches.
+# constrained_layout tells matplotlib to place subelements to fit.
 fig, ax = plt.subplots(figsize = (12, 12), constrained_layout = True)
 
 backup = plot(
     # Address:
     'Morrill Meadows Park, East Hill, Kent, King County, Washington, United States',
-    # Plot geometries in a circle of radius:
-    radius = 1100,
+    # Plot geometries in a circle of radius (measured in meters):
+    radius = 500,
     # Matplotlib axis
     ax = ax,
     # Which OpenStreetMap layers to plot and their parameters:
